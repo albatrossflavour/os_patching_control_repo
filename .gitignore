@@ -1,0 +1,5 @@
+.onceover
+*.swp
+.todo.txt.bak
+.DS_Store
+.yardoc

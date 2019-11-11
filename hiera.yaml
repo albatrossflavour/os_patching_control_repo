@@ -1,0 +1,12 @@
+---
+version: 5
+defaults:
+  datadir: data
+
+hierarchy:
+  - name: "Configuration data"
+    data_hash: yaml_data
+    paths:
+      - "%{::fqdn}.yaml"
+      - "%{::kernel}.yaml"
+      - "common.yaml"

@@ -1,0 +1,6 @@
+---
+os_patching::patch_window: 'Default'
+os_patching::blackout_windows:
+  'Default blackout window from hiera':
+    start: '2019-12-15T00:00:00+10:00'
+    end: '2020-01-01T00:00:00+10:00'
